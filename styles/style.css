@@ -1,0 +1,27 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: tomato;
+}
+
+h2 {
+  font-family: 'ALKDots', sans-serif;
+  color: blueviolet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  transition: all 1s;
+}
+
+.box:hover {
+  border-radius: 10px;
+  background-color: purple;
+  height: 220px;
+  width: 220px;
+  /* transition: all 3s; */
+}
